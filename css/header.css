@@ -61,6 +61,7 @@
 
 .nav__item--submenu:hover > .nav__subnav {
     display: block;
+    z-index: 99;
 }
 
 .icono {
