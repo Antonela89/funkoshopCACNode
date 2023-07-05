@@ -1,6 +1,5 @@
 .header {
     width: 100%;
-    height: 10vh;
     color: var(--colorTexto);
     background-color: var(--colorFondo);
     display: flex;

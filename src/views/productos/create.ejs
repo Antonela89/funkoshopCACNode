@@ -1,0 +1,52 @@
+<div class="contenedor">
+    <h2 class="titulo">crear nuevo item</h2>
+    <form class="formulario" action="">
+        <fielset class="bloque__categoria">
+            <label class="form__label" for="">categoria:</label>
+            <select class="form__select" name="" id="">
+                <option class="form__option" value="">Seleccionar</option>
+                <option class="form__option" value="">Star Wars</option>
+                <option class="form__option" value="">Pokemon</option>
+                <option class="form__option" value="">Harry Potter</option>
+            </select>
+            <label class="form__label" for="">licencia:</label>
+            <select class="form__select" name="" id="">
+                <option class="form__option" value="">Seleccionar</option>
+                <option class="form__option" value=""></option>
+                <option class="form__option" value=""></option>
+                <option class="form__option" value=""></option>
+            </select>
+        </fielset>
+        <fielset class="bloque__nombre">
+            <label class="form__label form__label--nombre" for="">Nombre del producto:</label>
+            <input class="form__input input__margin--bottom" type="text" placeholder="Kakashi Hatake Shippuden Saga">
+        </fielset>
+        <textarea class="form__textarea" name="" id="" cols="30" rows="10" placeholder="Descripción del producto"></textarea>
+        <fielset class="bloque__precio">
+            <label class="form__label form__label--sku" for="">sku:</label>
+            <input class="form__input input__margin--bottom sku" type="text" placeholder="SSK111AB00">
+            <label class="form__label form__label--precio" for="">precio:</label>
+            <input class="form__input input__margin--bottom precio" type="text" placeholder="$ 0.000,00">
+            <label class="form__label form__label--stock" for="">stock:</label>
+            <input class="form__input input__margin--bottom stock" type="text" placeholder="0">
+        </fielset>
+        <fielset class="bloque__descuento">
+            <label class="form__label form__label--descuento" for="">descuento:</label>
+            <input class="form__input input__margin--bottom descuento" type="text" placeholder="0%">
+            <label class="form__label form__label--cuotas" for="">cuotas:</label>
+            <select class="form__select" name="" id="">
+                <option class="form__option"value="">3 cuotas sin interés</option>
+                <option class="form__option"value="">6 cuotas</option>
+                <option class="form__option"value="">12 cuotas</option>
+            </select>
+        </fielset>
+        <fielset class="bloque__archivos">
+            <label class="form__label" for="">imágenes:</label>
+            <input class="form__input" type="file">
+        </fielset>
+        <fielset class="bloque__botones">
+            <button class="form__button" type="submit">agregar producto</button>
+            <button class="form__button" type="reset">limpiar</button>
+        </fielset>
+    </form>
+</div>
