@@ -15,26 +15,20 @@
 }
 
 .formulario {
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
-}
-
-.bloque__categoria {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2rem;
+    align-items: center;
 }
 
 .form__label {
-    width: 100%;
+    width: 30%;
+    display: inline;
     text-transform: capitalize;
     font-size: 2rem;
-    margin: 0.5rem 0;
 }
 
-.form__select {
+/* .form__select {
     width: 25%;
     height: 3rem;
     color: #B9B9B9;
@@ -42,33 +36,44 @@
     border: 2px solid #30343F;
     border-radius: 6px;
     padding: 0.2rem;
-}
+} */
 
 .form__input {
-    width: 100%;
+    width: 70%;
     height: 3rem;
     color: #B9B9B9;
     background: #F5F5F5;
     border: 2px solid #30343F;
     border-radius: 6px;
     padding: 0.2rem;
+  
 }
 
 .bloque{
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 3rem;
 }
 
-.bloque__nombre {
+/* .bloque__categoria {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+} */
+
+
+/* .bloque__nombre {
     width: 100%;
     margin-bottom: 2rem;
-}
+} */
 
-.form__label--nombre {
+/* .form__label--nombre {
     text-transform: none;
     width: 30%;
-}
+} */
 
 .input__margin--bottom {
     border: none;
@@ -77,21 +82,19 @@
     background-color: #FFFFFF;
 }
 
-.form__textarea {
+/* .form__textarea {
     margin-bottom: 2rem;
     border: 1px solid #1F1F1F;
     border-radius: 4px;
     padding: 0.2rem;  
-}
+} */
 
-.bloque__precio {
+/* .bloque__precio {
     width: 80%;
-    /* display: flex;
-    justify-content: space-between; */
     margin-bottom: 2rem;
-}
+} */
 
-.form__label--sku {
+/* .form__label--sku {
     text-transform: uppercase;
 }
 
@@ -107,10 +110,10 @@
 .precio {
     width: 15%;
     text-align: center;
-    /* margin-right: 2rem; */
-}
+    margin-right: 2rem; 
+}*/
 
-.stock {
+/*.stock {
     width: 5%;
     text-align: center;
 }
@@ -134,11 +137,19 @@
 .bloque__archivos {
     width: 80%;
     margin-bottom: 2rem;
-}
+} */
 
 .form__button {
-    width: 100%;
+    width: 30%;
     margin: 2rem 0;
     padding: 1rem;
     text-transform: uppercase;
+    border: 1px solid var(--colorDetalles);
+    border-radius: 10px;
+}
+
+.form__button:hover{
+    background: var(--colorDetalles);
+    cursor: pointer;
+    font-weight: bold;
 }
